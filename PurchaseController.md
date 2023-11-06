@@ -49,7 +49,8 @@
 - `POST /children/purchase/add`
 
 **请求体数据**
-- `purchase` (Object, 必需) - 订单信息，包括 `childId`, `value`, `date`, `status`, `subId`, `subNum` 字段。
+- `purchase` (Object, 必需) - 订单信息，包括 `childId`, `value`, `subId`, `subNum` 字段。
+- 插入自动生成订单创建时间和订单状态（创建初始为进行中）
 
 **请求示例**
 ```json
@@ -57,8 +58,6 @@
   "purchase": {
     "childId": "example_child_id",
     "value": 100,
-    "date": "2023-11-04T10:00:00",
-    "status": true,
     "subId": "example_sub_id",
     "subNum": 2
   }
@@ -81,4 +80,3 @@
 }
 ```
 
-这是Purchase Controller的接口文档示例，你可以根据实际需要进行修改和扩展。
