@@ -38,7 +38,7 @@
 }
 ```
 
-## 显示必做任务（待定）
+## 显示必做任务（待定,先不要写对应的前端请求）
 
 **URL**
 - `GET /children/task/verifyGradeTask`
@@ -73,7 +73,7 @@
 }
 ```
 
-## 模糊查找任务
+## 模糊查找任务（待定,先不要写对应的前端请求）
 
 **URL**
 - `GET /children/task/searchTask`
