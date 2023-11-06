@@ -1,6 +1,6 @@
 # Purchase Controller 接口文档
 
-## 查看当前孩子的订单列表
+## 查看当前孩子的订单列表/消耗积分记录
 
 **URL**
 - `GET /children/purchase/list/{childId}`
