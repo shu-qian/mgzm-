@@ -5,6 +5,8 @@
 
 **URL**
 - `GET /children/task-child/submitted-uncorrected/{childId}`
+- `e.g: /children/task-child/submitted-uncorrected/1`
+
 
 **请求参数**
 - `childId` (String, 必需) - 孩子的ID
