@@ -63,3 +63,29 @@
 "message": "作业图片上传失败"
 }
 ```
+
+# 下载任务图片
+
+该接口用于下载指定孩子的特定任务的作业图片。
+
+## URL
+
+`/downloadTaskChildPhoto/{childId}/{taskId}`
+
+## 请求方法
+
+`GET`
+
+## 路径参数
+
+- `childId`（String）：孩子的ID。
+- `taskId`（String）：任务的ID。
+
+## 响应
+浏览器将直接发起一个下载图片的任务
+
+
+
+## 示例
+### 请求
+请求：`GET /downloadTaskChildPhoto/123/456`
